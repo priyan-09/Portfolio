@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Priyanka Nandkumar Gaikwad</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.16/typed.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .project-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-10 top-0">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="text-2xl font-bold text-purple-600">Priyanka Gaikwad</div>
+            <div class="space-x-4">
+                <a href="#home" class="hover:text-purple-600">Home</a>
+                <a href="#about" class="hover:text-purple-600">About</a>
+                <a href="#projects" class="hover:text-purple-600">Projects</a>
+                <a href="#skills" class="hover:text-purple-600">Skills</a>
+                <a href="#contact" class="hover:text-purple-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="gradient-bg text-white pt-24 pb-16">
+        <div class="container mx-auto px-4 text-center">
+            <img src="WhatsApp Image 2024-11-26 at 20.21.42_fc8200ca.jpg" alt="Profile" class="mx-auto rounded-full w-48 h-48 mb-6 border-4 border-white">
+            <h1 class="text-4xl font-bold mb-4">Hi, I'm Priyanka<span id="typed-output"></span></h1>
+            <p class="text-xl mb-8">CSE(AIML) Student | Tech Innovator | Problem Solver</p>
+            <div class="space-x-4">
+                <a href="#contact" class="bg-white text-purple-600 px-6 py-3 rounded-full hover:bg-purple-100">
+                    Hire Me
+                </a>
+                <a href="https://drive.google.com/file/d/117ytY_3pReOF0WgDEr2IUvLFQF1p_zbw/view?usp=sharing" class="border-2 border-white px-6 py-3 rounded-full hover:bg-white hover:text-purple-600">
+                    Download CV
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-gray-700 mb-4">
+                        I'm a passionate engineering student specializing in [Your Discipline] with a keen interest in innovative technological solutions. My academic journey has been driven by curiosity, problem-solving, and a desire to create impactful technologies.
+                    </p>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <h3 class="font-bold">Education</h3>
+                            <p>B.Tech in [Your Branch]<br>[College Name]</p>
+                        </div>
+                        <div>
+                            <h3 class="font-bold">Interests</h3>
+                            <p>Machine Learning<br>Web Development<br>IoT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="bg-purple-100 p-6 text-center rounded-lg">
+                        <i class="fas fa-code text-4xl text-purple-600 mb-2"></i>
+                        <p>Coding</p>
+                    </div>
+                    <div class="bg-purple-100 p-6 text-center rounded-lg">
+                        <i class="fas fa-project-diagram text-4xl text-purple-600 mb-2"></i>
+                        <p>Design</p>
+                    </div>
+                    <div class="bg-purple-100 p-6 text-center rounded-lg">
+                        <i class="fas fa-globe text-4xl text-purple-600 mb-2"></i>
+                        <p>Innovation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">My Skills</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <!-- Programming Skills -->
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fab fa-python text-5xl text-blue-600 mb-4"></i>
+                    <h3 class="font-bold text-xl mb-2">Python</h3>
+                    <p class="text-gray-600">Advanced Programming</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fab fa-java text-5xl text-red-600 mb-4"></i>
+                    <h3 class="font-bold text-xl mb-2">Java</h3>
+                    <p class="text-gray-600">Object-Oriented Programming</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fab fa-js text-5xl text-yellow-500 mb-4"></i>
+                    <h3 class="font-bold text-xl mb-2">JavaScript</h3>
+                    <p class="text-gray-600">Web Development</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fab fa-react text-5xl text-blue-400 mb-4"></i>
+                    <h3 class="font-bold text-xl mb-2">React</h3>
+                    <p class="text-gray-600">Frontend Framework</p>
+                </div>
+
+                <!-- Tools and Frameworks -->
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fab fa-docker text-5xl text-blue-700 mb-4"></i>
+                    <h3 class="font-bold text-xl mb-2">Docker</h3>
+                    <p class="text-gray-600">Containerization</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fas fa-database text-5xl text-green-600 mb-4"></i>
+                    <h3 class="font-bold text-xl mb-2">SQL</h3>
+                    <p class="text-gray-600">Database Management</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fab fa-git-alt text-5xl text-orange-600 mb-4"></i>
+                    <h3 class="font-bold text-xl mb-2">Git</h3>
+                    <p class="text-gray-600">Version Control</p>
+                </div>
+                <div class="skill-card bg-white p-6 rounded-lg shadow-md text-center">
+                    <i class="fas fa-cloud text-5xl text-indigo-600 mb-4"></i>
+                    <h3 class="font-bold text-xl mb-2">Cloud</h3>
+                    <p class="text-gray-600">AWS/Azure Basics</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Updated) -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Project 1: Smart Home Automation -->
+                <div class="project-card bg-gray-100 p-6 rounded-lg shadow">
+                    <img src="smart home automation.jpeg">
+                    <h3 class="font-bold text-xl mb-2">Smart Home Automation</h3>
+                    <p class="text-gray-600 mb-4">IoT-based home automation system using Raspberry Pi and machine learning for intelligent device control.</p>
+                    <div class="flex space-x-2">
+                        <a href="#" class="bg-purple-600 text-white px-4 py-2 rounded">View Project</a>
+                        <a href="#" class="border border-purple-600 text-purple-600 px-4 py-2 rounded">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Machine Learning Recommendation System -->
+                <div class="project-card bg-gray-100 p-6 rounded-lg shadow">
+                    <img src="download.jpeg">
+                    <h3 class="font-bold text-xl mb-2">Movie Recommendation Engine</h3>
+                    <p class="text-gray-600 mb-4">Advanced machine learning model using collaborative filtering to suggest personalized movie recommendations.</p>
+                    <div class="flex space-x-2">
+                        <a href="#" class="bg-purple-600 text-white px-4 py-2 rounded">View Project</a>
+                        <a href="#" class="border border-purple-600 text-purple-600 px-4 py-2 rounded">GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Web Application -->
+                <div class="project-card bg-gray-100 p-6 rounded-lg shadow">
+                    <img src="images (1).jpeg">
+                    <h3 class="font-bold text-xl mb-2">Campus Event Management</h3>
+                    <p class="text-gray-600 mb-4">Full-stack web application for managing and tracking college events with user authentication and real-time updates.</p>
+                    <div class="flex space-x-2">
+                        <a href="#" class="bg-purple-600 text-white px-4 py-2 rounded">View Project</a>
+                        <a href="#" class="border border-purple-600 text-purple-600 px-4 py-2 rounded">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Me</h2>
+            <div class="max-w-lg mx-auto">
+                <form id="contactForm" class="space-y-4">
+                    <input type="text" placeholder="Your Name" required class="w-full p-3 rounded bg-white/20 placeholder-white/70">
+                    <input type="email" placeholder="Your Email" required class="w-full p-3 rounded bg-white/20 placeholder-white/70">
+                    <textarea placeholder="Your Message" required class="w-full p-3 rounded bg-white/20 placeholder-white/70" rows="5"></textarea>
+                    <button type="submit" class="w-full bg-white text-purple-600 p-3 rounded-full hover:bg-purple-100">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="text-2xl hover:text-purple-400"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-2xl hover:text-purple-400"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-2xl hover:text-purple-400"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Typed.js for dynamic text
+        document.addEventListener('DOMContentLoaded', function() {
+            new Typed('#typed-output', {
+                strings: ['an Engineer', 'a Developer', 'an Innovator'],
+                typeSpeed: 100,
+                backSpeed: 50,
+                loop: true
+            });
+
+            // Smooth scrolling for navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+
+            // Basic form submission handler (replace with actual backend logic)
+            document.getElementById('contactForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! I will get back to you soon.');
+            });
+        });
+    </script>
+</body>
+</html>
